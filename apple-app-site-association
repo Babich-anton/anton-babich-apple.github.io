@@ -6,5 +6,31 @@
 			"552C94YRQD.com.hansecom.SpokaneProd",
 	        	"86P3677DLW.com.spokane.spokaneApp"
 		]
+    	},
+    	"applinks": {
+        	"apps": [
+			"552C94YRQD.com.hansecom.SpokaneDev",
+		      	"552C94YRQD.com.hansecom.SpokaneStaging",
+			"552C94YRQD.com.hansecom.SpokaneProd",
+	        	"86P3677DLW.com.spokane.spokaneApp"
+		]
+        	"details": [
+            		{
+                		"appID": "552C94YRQD.com.hansecom.SpokaneDev",
+                		"paths": ["*"]
+            		},
+            		{
+                		"appID": "552C94YRQD.com.hansecom.SpokaneStaging",
+                		"paths": ["*"]
+            		},
+            		{
+                		"appID": "552C94YRQD.com.hansecom.SpokaneProd",
+                		"paths": ["*"]
+            		},
+            		{
+                		"appID": "86P3677DLW.com.spokane.spokaneApp",
+                		"paths": ["*"]
+            		}
+        	]
     	}
 }

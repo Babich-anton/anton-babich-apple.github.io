@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      "appIDs": [
+	  		"552C94YRQD.com.hansecom.SpokaneDev",
+	      "552C94YRQD.com.hansecom.SpokaneStaging",
+				"552C94YRQD.com.hansecom.SpokaneProd",
+        "86P3677DLW.com.spokane.spokaneApp"
+			]
+    ]
+  }
+}

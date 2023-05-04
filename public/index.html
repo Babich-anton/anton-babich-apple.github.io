@@ -46,11 +46,11 @@
     <center> <h1> Login Form </h1> </center>   
     <form action="post">  
         <div class="container">   
-            <input id="email" type="email" placeholder="Enter Username" name="email" required autocomplete="email">  
+            <input id="email" type="email" placeholder="Enter Username" name="username" required autocomplete="username">  
             <input id="password" type="password" placeholder="Enter Password" name="password" required autocomplete="current-password">  
             <button onClick="auth(event)">Login</button>   
-        </div>   
-    </form>     
+        </div>
+    </form>
 
 	<script>
 		function auth(event) {
@@ -61,6 +61,7 @@
 
 			if (email === "1111@gmail.com" && password === "1111") {
 				window.location.replace("./redirect.html");
+				// window.location.replace("dtapp://login");
 			} else {
 				alert("Invalid information");
 				return;

@@ -11,16 +11,8 @@
                    "8QJY3FRD5H.de.hansecom.deutschlandticketbeta",
                    "8QJY3FRD5H.de.hansecom.rosabeta"
                ],
-               "components": [
-                   {
-                       "#": "no_universal_links",
-                       "exclude": true,
-                       "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-                   },
-                   {
-                       "/": "*",
-                       "comment": "Matches any URL with a path that starts with /buy/."
-                   }
+               "paths": [
+                    "*"
                ]
            }
        ]

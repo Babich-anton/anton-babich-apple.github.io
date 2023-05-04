@@ -1,0 +1,22 @@
+{
+    "hosting": {
+        "public": "public",
+        "headers": [
+            {
+                "source": "/.well-known/apple-app-site-association",
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/octet-stream"
+                    }
+                ]
+            }
+        ],
+        "redirects": [{
+            "source": "/apple-app-site-association",
+            "destination": "/.well-known/apple-app-site-association",
+            "type": 301
+        }],
+        "appAssociation": "NONE"
+    }
+}

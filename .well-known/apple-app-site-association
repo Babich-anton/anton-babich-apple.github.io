@@ -1,0 +1,39 @@
+{
+   "applinks": {
+       "details": [
+           {
+               "appIDs": [
+                   "8QJY3FRD5H.de.hansecom.bsagbeta",
+                   "8QJY3FRD5H.de.hansecom.bsmbeta",
+                   "8QJY3FRD5H.de.hansecom.guesterslohbeta",
+                   "8QJY3FRD5H.de.hansecom.mobielbeta",
+                   "8QJY3FRD5H.de.hansecom.swhnapp",
+                   "8QJY3FRD5H.de.hansecom.deutschlandticketbeta",
+                   "8QJY3FRD5H.de.hansecom.rosabeta"
+               ],
+               "components": [
+                   {
+                       "#": "no_universal_links",
+                       "exclude": true,
+                       "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                   },
+                   {
+                       "/": "*",
+                       "comment": "Matches any URL with a path that starts with /buy/."
+                   }
+               ]
+           }
+       ]
+   },
+   "webcredentials": {
+       "apps": [
+           "8QJY3FRD5H.de.hansecom.bsagbeta",
+           "8QJY3FRD5H.de.hansecom.bsmbeta",
+           "8QJY3FRD5H.de.hansecom.guesterslohbeta",
+           "8QJY3FRD5H.de.hansecom.mobielbeta",
+           "8QJY3FRD5H.de.hansecom.swhnapp",
+           "8QJY3FRD5H.de.hansecom.deutschlandticketbeta",
+           "8QJY3FRD5H.de.hansecom.rosabeta"
+       ]
+   }
+}
